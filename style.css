@@ -25,13 +25,34 @@
 }
 
 @layer base {
-  .headingSize {
-    font-size: clamp();
+  li {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid white;
+    @apply hover:border-hover-color;
+    @apply hover:text-hover-color;
+    height: 1.9rem;
+    width: 1.9rem;
+    border-radius: 100%;
+    cursor: pointer;
+    @apply lg:w-10;
+    @apply lg:h-10;
   }
-  .paragraphSize {
-    font-size: clamp();
+  a {
+    cursor: pointer;
+    font-weight: 600;
   }
-  .buttonTextSize {
-    font-size: clamp();
-  }
+}
+
+.headingSize {
+  font-size: clamp(1.6rem, 3vw, 3rem);
+}
+
+.paragraphSize {
+  font-size: clamp(1rem, 1.3vw, 2.5rem);
+}
+
+.buttonTextSize {
+  font-size: clamp(0.85rem, 1.2vw, 2.5rem);
 }

@@ -36,6 +36,8 @@
       crossorigin
     />
 
+    <link rel="stylesheet" href="./css/output.css" />
+
     <!-- SCRIPTS -->
     <script
       async
@@ -48,38 +50,63 @@
 
   <!-- Poppins for h1(semibold) and button(regular) -->
   <!-- Open sans for p(regular) -->
-  <body>
-    <header>
-      <img src="./assets/images/logo.svg" alt="Huddle landing page logo" />
+  <body
+    class="mx-auto flex flex-col gap-6 p-4 bg-mobile-pattern bg-violet min-[376px]:bg-desktop-pattern bg-no-repeat max-w-fit bg-cover"
+  >
+    <header class="px-5 py-4 lg:px-12 lg:py-8">
+      <img
+        class="max-w-56 w-2/5 h-auto"
+        src="./assets/images/logo.svg"
+        alt="Huddle landing page logo"
+      />
     </header>
 
-    <main>
-      <div>
-        <img src="./assets/images/illustration-mockups.svg" alt="" />
+    <main
+      class="flex items-center lg:items-stretch flex-col lg:flex-row px-5 pt-5 lg:pt-8 lg:px-14 gap-14 lg:gap-12"
+    >
+      <div class="basis-1/2 lg:basis-2/3">
+        <img
+          class="max-w-full h-auto"
+          src="./assets/images/illustration-mockups.svg"
+          alt=""
+        />
       </div>
 
-      <div>
-        <h1>Build The Community Your Fans Will Love</h1>
-        <p>
+      <div
+        class="basis-1/2 flex flex-col items-center lg:items-start gap-3 text-center lg:text-left lg:pt-10"
+      >
+        <h1 class="text-white font-poppins font-semibold headingSize">
+          Build The Community Your Fans Will Love
+        </h1>
+        <p class="text-white font-open-sans font-normal paragraphSize">
           Huddle re-imagines the way we build communities. You have a voice, but
           so does your audience. Create connections with your users as you
           engage in genuine discussion.
         </p>
-        <button>Register</button>
+        <button
+          class="buttonTextSize min-w-48 rounded-full mt-4 p-2.5 font-poppins font-semibold bg-white text-violet shadow-gray-700 shadow-[0_2px_10px_2px] hover:bg-soft-magenta hover:text-white"
+        >
+          Register
+        </button>
       </div>
     </main>
 
-    <footer>
-      <ul>
+    <footer
+      class="flex flex-col items-center lg:items-end text-center px-5 pt-10 lg:pt-0 lg:pe-16"
+    >
+      <ul class="flex gap-2 text-white lg:gap-4">
         <li><i class="fa fa-facebook" aria-hidden="true"></i></li>
         <li><i class="fa fa-twitter" aria-hidden="true"></i></li>
         <li><i class="fa fa-instagram" aria-hidden="true"></i></li>
       </ul>
-      <p class="attribution">
+      <p class="pt-2 font-poppins text-white paragraphSize">
         Challenge by
         <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
           >Frontend Mentor</a
-        >. Coded by <a href="#">Your Name Here</a>.
+        >. Coded by
+        <a href="https://www.frontendmentor.io/profile/Fejiro001"
+          >Fejiro Abere</a
+        >.
       </p>
     </footer>
   </body>
