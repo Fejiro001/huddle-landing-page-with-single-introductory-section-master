@@ -590,12 +590,76 @@ a {
   display: flex;
 }
 
+.aspect-video {
+  aspect-ratio: 16 / 9;
+}
+
+.aspect-square {
+  aspect-ratio: 1 / 1;
+}
+
+.aspect-auto {
+  aspect-ratio: auto;
+}
+
+.aspect-\[auto\] {
+  aspect-ratio: auto;
+}
+
+.aspect-\[709\/506\] {
+  aspect-ratio: 709/506;
+}
+
 .h-auto {
   height: auto;
 }
 
+.h-\[auto\] {
+  height: auto;
+}
+
+.h-\[800\] {
+  height: 800;
+}
+
+.h-\[800px\] {
+  height: 800px;
+}
+
+.h-\[399px\] {
+  height: 399px;
+}
+
 .w-2\/5 {
   width: 40%;
+}
+
+.w-10 {
+  width: 2.5rem;
+}
+
+.w-\[\] {
+  width: ;
+}
+
+.w-\[1440px\] {
+  width: 1440px;
+}
+
+.w-96 {
+  width: 24rem;
+}
+
+.w-\[709\] {
+  width: 709;
+}
+
+.w-\[709px\] {
+  width: 709px;
+}
+
+.w-full {
+  width: 100%;
 }
 
 .min-w-48 {
@@ -707,12 +771,12 @@ a {
   text-align: center;
 }
 
-.font-open-sans {
-  font-family: Open Sans, serif;
+.font-primary1 {
+  font-family: Poppins, sans-serif;
 }
 
-.font-poppins {
-  font-family: Poppins, sans-serif;
+.font-primary2 {
+  font-family: Open Sans, serif;
 }
 
 .font-normal {
@@ -747,7 +811,7 @@ a {
 @font-face {
   font-family: "Poppins";
 
-  src: url(./assets/fonts/Poppins-Regular.ttf);
+  src: url(../fonts/Poppins-Regular.ttf);
 
   font-display: swap;
 
@@ -759,7 +823,7 @@ a {
 @font-face {
   font-family: "Poppins";
 
-  src: url(./assets/fonts/Poppins-SemiBold.ttf);
+  src: url(../fonts/Poppins-SemiBold.ttf);
 
   font-display: swap;
 
@@ -771,7 +835,7 @@ a {
 @font-face {
   font-family: "Open Sans";
 
-  src: url(./assets/fonts/OpenSans-Regular.ttf);
+  src: url(../fonts/OpenSans-Regular.ttf);
 
   font-display: swap;
 

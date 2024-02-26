@@ -9,8 +9,8 @@ module.exports = {
         "hover-color": "hsl(300, 90%, 80%)",
       },
       fontFamily: {
-        poppins: ["Poppins", "sans-serif"],
-        "open-sans": ["Open Sans", "serif"],
+        "primary1": ["Poppins", "sans-serif"],
+        "primary2": ["Open Sans", "serif"],
       },
       backgroundImage: {
         "desktop-pattern": "url(/assets/images/bg-desktop.svg)",
