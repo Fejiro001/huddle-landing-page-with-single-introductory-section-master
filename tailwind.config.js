@@ -13,8 +13,8 @@ module.exports = {
         "primary2": ["Open Sans", "serif"],
       },
       backgroundImage: {
-        "desktop-pattern": "url(/assets/images/bg-desktop.svg)",
-        "mobile-pattern": "url(/assets/images/bg-mobile.svg)",
+        "desktop-pattern": "url(/images/bg-desktop.svg)",
+        "mobile-pattern": "url(/images/bg-mobile.svg)",
       },
     },
   },
