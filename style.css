@@ -25,10 +25,6 @@
 }
 
 @layer base {
-  body {
-    @apply bg-mobile-pattern;
-    @apply min-[376px]:bg-desktop-pattern;
-  }
   li {
     display: flex;
     justify-content: center;

@@ -444,16 +444,6 @@ video {
   display: none;
 }
 
-body {
-  background-image: url(/images/bg-mobile.svg);
-}
-
-@media (min-width: 376px) {
-  body {
-    background-image: url(/images/bg-desktop.svg);
-  }
-}
-
 li {
   display: flex;
   justify-content: center;
@@ -679,6 +669,10 @@ a {
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
 }
 
+.bg-mobile-pattern {
+  background-image: url(/images/bg-mobile.svg);
+}
+
 .bg-cover {
   background-size: cover;
 }
@@ -822,6 +816,12 @@ a {
 .hover\:text-white:hover {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+
+@media (min-width: 376px) {
+  .min-\[376px\]\:bg-desktop-pattern {
+    background-image: url(/images/bg-desktop.svg);
+  }
 }
 
 @media (min-width: 1024px) {
