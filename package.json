@@ -4,8 +4,8 @@
   "description": "![Design preview for the Huddle landing page with single introductory section](./design/desktop-preview.jpg)",
   "main": "index.js",
   "scripts": {
-    "build": "tailwindcss -i ./css/style.css -o ./css/output.css",
-    "watch": "tailwindcss -i ./css/style.css -o ./css/output.css --watch"
+    "build": "tailwindcss -i ./style.css -o ./css/output.css",
+    "watch": "tailwindcss -i ./style.css -o ./css/output.css --watch"
   },
   "keywords": [],
   "author": "Fejiro Abere",
