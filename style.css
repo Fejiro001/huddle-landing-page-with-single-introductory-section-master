@@ -31,9 +31,10 @@
     align-items: center;
     border: 2px solid white;
     @apply hover:border-hover-color;
-    @apply hover:text-hover-color;
-    height: 1.9rem;
-    width: 1.9rem;
+    @apply *:hover:fill-hover-color;
+    @apply *:fill-white;
+    height: 2.1rem;
+    width: 2.1rem;
     border-radius: 100%;
     cursor: pointer;
     @apply lg:w-10;
@@ -42,6 +43,7 @@
   a {
     cursor: pointer;
     font-weight: 600;
+    @apply hover:text-hover-color;
   }
 }
 
