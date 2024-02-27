@@ -25,6 +25,14 @@
 }
 
 @layer base {
+  body {
+    background-image: url(./images/bg-mobile.svg);
+  }
+  @media (min-width: 376px) {
+    body {
+        background-image: url(./images/bg-desktop.svg);
+    }
+  }
   li {
     display: flex;
     justify-content: center;

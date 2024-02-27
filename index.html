@@ -13,6 +13,8 @@
       href="./assets/images/favicon-32x32.png"
     />
 
+    <link rel="preload" href="./images/illustration-mockups.svg" as="image">
+
     <!-- FONTS -->
     <link
       href="./fonts/OpenSans-Regular.ttf"
@@ -41,11 +43,11 @@
   <!-- Poppins for h1(semibold) and button(regular) -->
   <!-- Open sans for p(regular) -->
   <body
-    class="mx-auto flex flex-col gap-6 p-4 bg-mobile-pattern bg-violet min-[376px]:bg-desktop-pattern bg-no-repeat max-w-fit bg-cover"
+    class="mx-auto flex flex-col gap-6 p-4 bg-violet bg-no-repeat max-w-fit bg-cover"
   >
-    <header class="px-5 py-4 lg:px-12 lg:py-8">
+    <header class="ps-5 py-4 lg:px-12 lg:py-8">
       <img
-        class="max-w-56 w-2/5 h-auto"
+        class="max-w-56 min-w-24 w-2/5 h-auto"
         src="./images/logo.svg"
         alt="Huddle landing page logo"
       />
@@ -56,7 +58,8 @@
     >
       <div class="basis-1/2 lg:basis-2/3">
         <img
-          class="max-w-full aspect-[709/506] h-auto"
+          class="max-w-full min-w-36 aspect-[709/506] h-auto"
+          loading="lazy"
           src="./images/illustration-mockups.svg"
           alt=""
         />
@@ -74,7 +77,7 @@
           engage in genuine discussion.
         </p>
         <button
-          class="buttonTextSize min-w-48 rounded-full mt-4 p-2.5 font-primary1 font-semibold bg-white text-violet shadow-gray-700 shadow-[0_2px_10px_2px] hover:bg-soft-magenta hover:text-white"
+          class="buttonTextSize min-w-48 rounded-full mt-4 p-2.5 font-primary1 font-normal bg-white text-violet shadow-gray-700 shadow-[0_2px_10px_2px] hover:bg-soft-magenta hover:text-white"
         >
           Register
         </button>

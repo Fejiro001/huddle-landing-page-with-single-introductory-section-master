@@ -12,10 +12,6 @@ module.exports = {
         "primary1": ["Poppins", "sans-serif"],
         "primary2": ["Open Sans", "serif"],
       },
-      backgroundImage: {
-        "desktop-pattern": "url(/images/bg-desktop.svg)",
-        "mobile-pattern": "url(/images/bg-mobile.svg)",
-      },
     },
   },
   plugins: [],
