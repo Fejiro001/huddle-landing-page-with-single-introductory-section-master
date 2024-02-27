@@ -26,12 +26,8 @@
 
 @layer base {
   body {
-    background-image: url(./images/bg-mobile.svg);
-  }
-  @media (min-width: 376px) {
-    body {
-        background-image: url(./images/bg-desktop.svg);
-    }
+    @apply bg-mobile-pattern;
+    @apply min-[376px]:bg-desktop-pattern;
   }
   li {
     display: flex;
